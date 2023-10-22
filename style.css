@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  height: 60px;
+  height: 8vh;
   width: 100vw;
   background-color: #0f1111;
   color: white;
@@ -177,7 +177,7 @@ span{
 .panel{
   background-color: #232f3e;
   width: 100vw;
-  height: 40px;
+  height: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
