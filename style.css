@@ -152,3 +152,83 @@ span{
   font-size: 0.85rem;
   font-weight: bold;
 }
+
+
+/* shopping cart  */
+
+.nav-cart{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart i{
+  font-size: 1.2rem;
+}
+
+.cart{
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+
+/*     panel     */
+.panel{
+  background-color: #232f3e;
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.panel-all{
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.panel-opt p{
+  display: inline;
+  font-size: 0.85rem;
+  margin-left: 2%;
+}
+
+.panel-opt{
+  width: 70%;
+}
+
+.panel-deals{
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+
+/* Hero Section */
+.hero-section{
+  width:100vw;
+  height: 80vh;
+  background-size: cover;
+  background-image: url("hero_image.jpg");
+}
+
+.hero-msg{
+  width: 100%;
+  height:5%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-msg a{
+  color:#007185; 
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.hero-msg a:hover{
+  text-decoration: underline;
+  color: orange;
+}
